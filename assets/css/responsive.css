@@ -1,0 +1,213 @@
+/* Responsive */
+
+
+ /* Extra large devices */
+@media (max-width: 1200px) { 
+    :root{
+    --biggest-font: 4rem;
+    --normal-font: 1.4rem;
+    --btn-font:1.4rem;
+    --big-font: 2rem;
+    --h1-font: 3rem;
+    --h2-font: 2rem;
+    }
+    .content_searching-title{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title_searching{
+        margin: 0;
+        text-align: center;
+    }
+    .searching_box{
+        flex-direction: column;
+    }
+    .select_btn-citys,
+    .select_btn-price,
+    .btn_searching{
+        width: 100%;
+        margin-bottom: 1.4rem;
+    }
+    .btn_searching{
+        margin-bottom: 0;
+    }
+    .section_location-container{
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .section_location-box{
+        margin-bottom: 1rem;
+    }
+}
+
+/* Large devices */
+@media (max-width: 992px) {  
+    :root{
+        --biggest-font: 2.4rem;
+        --normal-font: 1.2rem;
+        --btn-font:1.2rem;
+        --big-font: 1.6rem;
+        --h1-font: 2rem;
+        --h2-font: 1.4rem;
+    }
+    .navbar{
+        margin: 0;
+        padding: 0 1rem;
+    }
+    .nav_menu-btn{
+        display: block;
+    }
+    .nav_menu-res.open{
+        right: 0;
+    }
+    .nav_menu-res{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        max-width: 300px;
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+        z-index: var(--fixed);
+        background-color: var(--white-color);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: var(--tran-0-5);
+    }
+    .nav_header-res{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 1.6rem 1.6rem 1rem;
+        border-bottom:1px solid var(--border-color) ;
+    }
+    .nav_close-btn{
+        color: #858585;
+        font-size:28px;
+        cursor: pointer;
+    }
+    .res-link {
+        margin: 1.6rem 0;
+        padding: 0.8rem 1.2rem;
+    }
+    .res-link > a{
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: var(--text-color);
+    }
+    .nav_menu,
+    .nav_btn{
+        display: none;
+    }
+    .searching_background{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .content_searching-title{
+        margin-bottom: 4rem;
+    }
+    .title_searching-second{
+        display: none;
+    }
+    .searching_box{
+        padding: 1.5rem 4rem;
+    }
+    .select_btn-citys,
+    .select_btn-price{
+        padding: 0.4rem 1rem;
+    }
+    .select_option-price,
+    .select_option-citys{
+        margin: 0;
+    }
+    .new_box-para{
+        display: none;
+    }
+    .footer_links{
+        display: none;
+    }
+}
+/* Small devices  */
+@media (max-width: 720px) { 
+    :root{
+        --biggest-font: 2.4rem;
+        --normal-font: 1.2rem;
+        --btn-font:1.2rem;
+        --big-font: 1.6rem;
+        --h1-font: 2rem;
+        --h2-font: 1.4rem;
+    }
+    .section{
+        padding: 0;
+    }
+    
+    .searching_background{
+        border-radius: 0;
+    }
+    .content_searching-title{
+        margin: 0;
+        padding: 0;
+    }
+    .title_searching{
+        width: 100% !important;
+        font-size: var(--normal-font);
+    }
+    .content_searching-title{
+        display: none;
+    }
+    .content_searching-title-res {
+        position: absolute;
+        padding: 0 1rem;
+        width: 100%;
+        height: auto;
+        top: 5rem;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content_searching-title-res .title_searching{
+        font-size: 2.5rem;
+    }
+    .content_searching-title-res .title_searching-second{
+        display: block;
+        font-size: 1.4rem;
+    }
+    .content_searching{
+        position: relative;
+        margin-top: 1rem;
+    }
+    .searching_box{}
+    .option_img{
+        display: none;
+    }
+    .deals_title,
+    .location_title,
+    .news_title{
+        line-height: 2.4rem;
+        text-align: center;
+    }
+    .footer_content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_contact-title{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .footer_copyright{
+        padding: 0 2rem;
+    }
+    .footer_copyright-contact{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
