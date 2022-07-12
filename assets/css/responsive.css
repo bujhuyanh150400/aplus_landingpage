@@ -65,6 +65,7 @@
     }
     .nav_menu-res{
         position: fixed;
+        display: block;
         top: 0;
         right: -100%;
         max-width: 300px;
