@@ -127,7 +127,6 @@ img{
     height: 100%;
     margin: 0 8.76rem;
     padding: 0.8rem 0;
-
 }
 .nav_logo{
     width: 13rem;
@@ -174,6 +173,9 @@ img{
     border-color: var(--primary-color-hover);
     color: var(--primary-color-hover);
 }
+.nav_menu-res{
+    display: none;
+}
 
 /* End -- Heading */
 
@@ -181,6 +183,7 @@ img{
 
 /* Searching section */
 .section_searching{
+
 }
 .container_searching{
     position: relative;
